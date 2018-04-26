@@ -17,8 +17,7 @@ body{
 	/*background-image: url('../images/working-table.jpg');
 	background-repeat: no-repeat;
 	background-position: center;*/
-	background-color: rgb(49,73,60);
-	color:#B3EFB2;
+	color: rgb(49,73,60);
 	padding:100px 25px 70px 25px;
 	height:100vh;
 }
