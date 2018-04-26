@@ -1,0 +1,116 @@
+body{
+	font-family: fantasy, sans-serif;
+}
+#brand-image{
+	float:left;
+}
+
+#main-nav{
+	background-color: #3E885B;
+	-webkit-box-shadow: 3px 2px 47px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 2px 47px -1px rgba(0,0,0,0.75);
+	-o-box-shadow: 3px 2px 47px -1px rgba(0,0,0,0.75);
+	box-shadow: 3px 2px 47px -1px rgba(0,0,0,0.75);
+}
+
+#about{
+	/*background-image: url('../images/working-table.jpg');
+	background-repeat: no-repeat;
+	background-position: center;*/
+	background-color: rgb(49,73,60);
+	color:#B3EFB2;
+	padding:100px 25px 70px 25px;
+	height:100vh;
+}
+
+#about p{
+	font-size: 2em;
+}
+
+
+#main-nav li a{
+	color:#F4EBE8;
+}
+
+#main-nav li a:hover{
+	color:#31493C;
+	font-weight: bold;
+}
+
+
+#main-nav li{
+	padding:10px;
+}
+
+#brand-image a{
+	color:#F2F2F2;
+	-webkit-text-shadow: 2px 2px 4px #000;
+	-moz-text-shadow: 2px 2px 4px #000;
+	-o-text-shadow: 2px 2px 4px #000;
+	text-shadow: 2px 2px 4px #000;
+
+}
+
+
+#abusman{
+	margin-left:20px;
+}
+
+#portfolio, #resume, #blog{
+	background-color: #C7D6D5;
+	min-height:100vh;
+	padding-top:50px;
+}
+
+ #contactme{
+ 	background-color: #C7D6D5;
+	min-height:50vh;
+	padding-top:50px
+ }
+
+#portfolio{
+	position: relative;
+}
+
+
+.thumbnail{
+	border:1px solid #31493C;
+}
+
+.badge{
+	border:2px solid #F2F2F2;
+	border-radius: 50%;
+	background-color: #3E885B;
+	color:yellow;
+	position:absolute;
+	top:-0.4em;
+	left:0.3em;
+}
+
+#blog{
+	background-color: #F2F2F2;
+}
+
+
+#footer-top{
+	height:35vh;
+	background-color: #133832;
+	color:#B3EFB2;
+	border-top: 1px solid #000;
+	padding:8px;
+}
+
+#footer-bottom{
+	height:10vh;
+	background-color: #0E2A26;
+	color:#F2F2F2;
+	padding:8px;
+	text-align: center;
+}
+
+
+
+
+
+
+
