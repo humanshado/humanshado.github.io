@@ -53,6 +53,7 @@ body{
 
 #abusman{
 	margin-left:20px;
+	border-radius: 50%;
 }
 
 #portfolio, #resume, #blog{
@@ -101,8 +102,6 @@ body{
 
 #footer-bottom{
 	height:10vh;
-	background-color: #0E2A26;
-	color:#F2F2F2;
 	padding:8px;
 	text-align: center;
 }
