@@ -6,8 +6,8 @@ body{
 }
 
 #main-nav{
-	background-color: #CED0CE;
-	border-bottom: 0.5px solid #A9ABA9;
+	background-color: #D6D7DC;
+  opacity: 0.8;
 }
 
 #about{
