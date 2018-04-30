@@ -6,17 +6,14 @@ body{
 }
 
 #main-nav{
-	background-color: #3E885B;
-	-webkit-box-shadow: 3px 2px 47px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 2px 47px -1px rgba(0,0,0,0.75);
-	-o-box-shadow: 3px 2px 47px -1px rgba(0,0,0,0.75);
-	box-shadow: 3px 2px 47px -1px rgba(0,0,0,0.75);
+	background-color: #CED0CE;
+	border-bottom: 0.5px solid #A9ABA9;
 }
 
 #about{
-	/*background-image: url('../images/working-table.jpg');
-	background-repeat: no-repeat;
-	background-position: center;*/
+	background-image: url('../images/banner.jpeg');
+	background-size: cover;
+	background-position: center;
 	color: rgb(49,73,60);
 	padding:100px 25px 70px 25px;
 	height:100vh;
@@ -28,7 +25,7 @@ body{
 
 
 #main-nav li a{
-	color:#F4EBE8;
+	color: rgb(49,73,60);
 }
 
 #main-nav li a:hover{
@@ -42,7 +39,7 @@ body{
 }
 
 #brand-image a{
-	color:#F2F2F2;
+	color: rgb(49,73,60);
 	-webkit-text-shadow: 2px 2px 4px #000;
 	-moz-text-shadow: 2px 2px 4px #000;
 	-o-text-shadow: 2px 2px 4px #000;
@@ -57,9 +54,12 @@ body{
 }
 
 #portfolio, #resume, #blog{
-	background-color: #C7D6D5;
 	min-height:100vh;
 	padding-top:50px;
+}
+
+#resume, #blog{
+	background-color: #C7D6D5;
 }
 
  #contactme{
