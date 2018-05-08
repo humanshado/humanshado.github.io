@@ -17,7 +17,7 @@ body{
 	background-image: url('../images/banner.jpeg');
 	background-size: cover;
 	background-position: center;
-	background-color: rgba(0,0,0,.4);
+	background-color: rgba(0,0,0,.8);
 	background-blend-mode: darken;
 	color: rgb(49,73,60);
 	color: #FFF;
@@ -50,10 +50,26 @@ body{
 	text-shadow: 2px 2px 4px #000;
 }
 
+.main-theme{
+	width: 50%;
+	height: 30%;
+	color: #FFF;
+	font-weight: bold;
+	border-bottom: 3px #FFF solid;
+	margin: 23vh auto;
+	text-align: center;
+	margin-right: 0;
+}
 
-#abusman{
+.abusman img{
 	margin-left:20px;
 	border-radius: 50%;
+}
+
+.social-icons{
+	font-size: 5rem;
+	padding-left: 4.5rem;
+	padding-top: 2rem;
 }
 
 #portfolio, #resume, #blog{
