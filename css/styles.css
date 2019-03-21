@@ -50,15 +50,21 @@ body{
 	text-shadow: 2px 2px 4px #000;
 }
 
+#main-theme-wrapper{
+	height: 100vh;
+}
+
+#main-theme-wrapper p{
+	margin: 0;
+}
+
 .main-theme{
-	width: 50%;
-	height: 30%;
+	width: 90%;
+	height: 80%;
 	color: #FFF;
 	font-weight: bold;
-	border-bottom: 3px #FFF solid;
 	margin: 23vh auto;
 	text-align: center;
-	margin-right: 0;
 }
 
 .abusman{
@@ -76,9 +82,16 @@ body{
 	padding-top: 2rem;
 }
 
+.tech-icons{
+	font-size: 7rem;
+	padding-left: 4.5rem;
+	padding-top: 2rem;
+	margin-bottom: 3rem;
+}
+
 #portfolio, #resume, #blog{
 	min-height:100vh;
-	padding-top:50px;
+	padding-top: 2rem;
 }
 
 #resume, #blog{
@@ -87,26 +100,27 @@ body{
 
  #contactme{
 	min-height:50vh;
-	padding-top:50px
+	padding-top: 2rem;
  }
 
 #portfolio{
 	position: relative;
 }
 
-
 .thumbnail{
+	margin: 2rem;
 	border:1px solid #31493C;
 }
 
 .badge{
 	border:2px solid #F2F2F2;
 	border-radius: 50%;
-	background-color: #3E885B;
-	color:yellow;
+	background-color: #CCC;
+	color: #EEE;
+	font-size: 3rem;
 	position:absolute;
-	top:-0.4em;
-	left:0.3em;
+	top:-0.1em;
+	left:0.7em;
 }
 
 #blog{
