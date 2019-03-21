@@ -89,18 +89,15 @@ body{
 	margin-bottom: 3rem;
 }
 
-#portfolio, #resume, #blog{
+#portfolio{
 	min-height:100vh;
 	padding-top: 2rem;
-}
-
-#resume, #blog{
-	background-color: #C7D6D5;
 }
 
  #contactme{
 	min-height:50vh;
 	padding-top: 2rem;
+		background-color: #C7D6D5;
  }
 
 #portfolio{
@@ -123,10 +120,6 @@ body{
 	left:0.7em;
 }
 
-#blog{
-	background-color: #F2F2F2;
-}
-
 
 #footer-top{
 	height:5vh;
@@ -140,6 +133,8 @@ body{
 	padding:8px;
 	text-align: center;
 }
+
+
 
 
 
