@@ -107,8 +107,8 @@ body{
 }
 
 .thumbnail{
-	width: 35rem;
-	height: 30rem;
+	max-width: 35rem;
+	max-height: 30rem;
 	margin: 2rem;
 	border:1px solid #31493C;
 }
