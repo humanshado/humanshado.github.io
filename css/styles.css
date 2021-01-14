@@ -90,28 +90,27 @@ body{
 }
 
 #portfolio{
+	position: relative;
 	min-height:100vh;
 	padding-top: 2rem;
+	background-color: #DDD;
 }
 
  #contactme{
 	min-height:50vh;
 	padding-top: 2rem;
-	margin-top: 2rem;
 	background-color: #C7D6D5;
-	background-color: #EFE9F2;
+	background-color: #2E2532;
+	color: #FBFBFB;
  }
-
-#portfolio{
-	position: relative;
-}
 
 .thumbnail{
 	min-width: 35rem;
 	min-height: 30rem;
 	margin: 2rem;
 	padding: 0;
-	border:1px solid #31493C;
+	border: 1px solid #31493C;
+	border: 2px solid #CCC;
 }
 
 .thumbnail img{
@@ -131,27 +130,12 @@ body{
 }
 
 footer{
-	background-color: rgba(0,0,0,.8);
+	background-color: #201A23;
 	color:#FFF;
 }
 
-#footer-top{
+footer div{
 	height:5vh;
-	border-top: 1px solid #000;
-	padding:8px;
-}
-
-#footer-bottom{
-	height:10vh;
-	padding:8px;
+	padding:13px;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
